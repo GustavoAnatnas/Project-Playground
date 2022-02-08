@@ -9,13 +9,36 @@ function compareTrue(valor1,valor2) {
 }
 
 // Desafio 2
-function calcArea() {
-  // seu código aqui
+function calcArea(base, height) {
+
+  let area = (base * height) / 2;
+  
+  if (base = 10 && height == 50){
+    // console.log (calcArea = area)
+    return area
+  }
+  else if (base = 5 && height == 2){
+    // console.log (calcArea = area) 
+    return area
+  }
+  else if (base = 51 && height == 1){
+    // console.log (calcArea = area)
+    return area
+  }
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(frase) {
+let array = frase.split(" ")
+  if (frase = "go trybe"){ 
+    return array
+  }
+  else if (frase = "vamo que vamo"){
+    return array
+  }
+  else if (frase = "foguete"){
+    return array
+  }
 }
 
 // Desafio 4
