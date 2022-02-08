@@ -42,13 +42,14 @@ let array = frase.split(" ")
 }
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(frase) {
+  return frase[frase.length - 1]+ ", " + frase[0];
 }
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  let soma;
+  return soma = wins*3 + ties ;
 }
 
 // Desafio 6
