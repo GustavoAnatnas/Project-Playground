@@ -54,18 +54,22 @@ function footballPoints(wins, ties) {
 
 // Desafio 6
 function highestCount(array) {
- let maiorNumero = Math.max(...array);
- let repeticao = 0;
- for(let index = 0; index <= array.length; index += 1){
-   if (array[index] === maiorNumero) {
-     repeticao += 1;
+ let maiorNumber = Math.max(...array); // math.max encontra o maior valor da array
+ let vezes = 0;
+ for(let i = 0; i <= array.length; i += 1){
+   if (array[i] === maiorNumber) {
+     vezes += 1;
    }
  }
-return repeticao
+return vezes
 }
+
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1, cat2) {
+
+
+
+
 }
 
 // Desafio 8
