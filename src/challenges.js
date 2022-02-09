@@ -66,11 +66,25 @@ return vezes
 
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
-
-
-
+ // Math.abs retorna o valor absoluto do numero passado
+ //referencia: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
+let distCat1 = Math.abs(mouse - cat1);
+let distCat2 = Math.abs(mouse - cat2);
+let distCats = Math.abs(cat1 - cat2)
+ 
+    if(distCat1 < distCat2){
+      return 'cat1'
+    }
+    else if (distCat1 > distCat2){
+      return "cat2"
+    }
+    else{
+      return "os gatos trombam e o rato foge"
+    }
 
 }
+
+
 
 // Desafio 8
 function fizzBuzz(array) {
